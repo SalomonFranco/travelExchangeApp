@@ -18,7 +18,7 @@ const Menu = ({ setIsOpen }) => {
             <figure>
               <img src={logo} alt="Logo" />
             </figure>
-            <p>Natura</p>
+            <p></p>
           </div>
 
           <IoCloseSharp size={30} color="var(--primary)" onClick={handleMenu} />

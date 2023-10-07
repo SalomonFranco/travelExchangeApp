@@ -26,7 +26,7 @@ const Navbar = () => {
           <figure>
             <img src={logo} alt="Logo" />
           </figure>
-          <p>Natura</p>
+          <p>creating ties</p>
         </div>
 
         <RiMenuLine
