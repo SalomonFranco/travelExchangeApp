@@ -57,9 +57,7 @@ const Footer = () => {
         <div className={styled.footer__icons}>
           <Heading className="small--dark" heading="social media" />
           <div className={styled["footer__icons--icons"]}>
-            <FaInstagramSquare size={35} color="var(--secondary)" />
             <FaFacebookSquare size={35} color="var(--secondary)" />
-            <FaTwitterSquare size={35} color="var(--secondary)" />
           </div>
         </div>
       </Container>
@@ -67,7 +65,7 @@ const Footer = () => {
       <ul className={styled.footer__logo}>
         <Heading className="small" heading="creating ties" />
         <li>
-        Made with ❤️ by {" "}
+        Made with ❤ by {" "}
           <a
             target="_blank"
             href="https://github.com/SalomonFranco"
