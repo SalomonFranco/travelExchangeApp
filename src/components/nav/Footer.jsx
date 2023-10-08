@@ -35,12 +35,6 @@ const Footer = () => {
           </li>
 
           <li>
-            <Link smooth to="#facilities">
-              Facilities
-            </Link>
-          </li>
-
-          <li>
             <Link smooth to="#locations">
               Locations
             </Link>
@@ -53,13 +47,8 @@ const Footer = () => {
             <div className={styled["footer__contact--info"]}>
               <h3>Email</h3>
               <li>
-                <p>Maddison Garden</p>
+                <p>Martha Hayden</p>
                 <p>gymnaturamaddison@gmail.com</p>
-              </li>
-
-              <li>
-                <p>Blairgrove</p>
-                <p>gymnaturablairgrove@gmail.com</p>
               </li>
             </div>
 
@@ -68,11 +57,6 @@ const Footer = () => {
               <li>
                 <p>Maddison Garden</p>
                 <p>1-547-697-9236</p>
-              </li>
-
-              <li>
-                <p>Blairgrove</p>
-                <p>1-250-520-4256</p>
               </li>
             </div>
           </ul>
@@ -96,7 +80,7 @@ const Footer = () => {
             href="https://github.com/m-oniqu3?tab=repositories"
             rel="noreferrer"
           >
-            Designed & Developed by Monique
+            Designed & Developed by Salomon
           </a>
         </li>
       </ul>

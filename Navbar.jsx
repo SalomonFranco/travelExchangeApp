@@ -56,12 +56,6 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link smooth to="#facilities">
-              Facilities
-            </Link>
-          </li>
-
-          <li>
             <Link smooth to="#locations">
               Locations
             </Link>

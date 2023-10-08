@@ -7,7 +7,7 @@ import Button from "../helpers/button/Button";
 const Benefits = () => {
   const heading = (
     <>
-      building <span>confidence.</span> building fitness.
+      discover <span>peru!</span>
     </>
   );
   return (
@@ -17,16 +17,12 @@ const Benefits = () => {
           <article className={styled["benefits__content--intro"]}>
             <Heading className="medium" heading={heading} />
             <p className="text">
-              As a women-only gym, our main focus is to help women build
-              confidence through working out and staying healthy. We offer a
-              variety of classes and programs that are designed to help women of
-              all fitness levels reach their goals.
+              The land of the Sun. Enjoy the hospitality of the people, the contrasting geographical regions and the ancient archeological sites such as Machu Picchu, architectural marvel built by the Incas whose empire expanded through most of South America.
+
             </p>
 
             <p className="text">
-              With Natura you can gain access to a supportive community of
-              women, improving your overall fitness, and increasing your
-              self-confidence.
+            Come to Peru and discover a gem!
             </p>
             <Button link="#locations" className="primary">
               See Locations
@@ -36,8 +32,8 @@ const Benefits = () => {
 
         <figure className={styled.benefits__image}>
           <img
-            src="https://images.unsplash.com/photo-1539794830467-1f1755804d13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-            alt="A woman stretching her arms"
+            src="https://images.pexels.com/photos/3879058/pexels-photo-3879058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="llamasinmachupichu"
           />
         </figure>
       </div>

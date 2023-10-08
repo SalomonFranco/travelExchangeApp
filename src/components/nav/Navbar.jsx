@@ -50,18 +50,6 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link smooth to="#programs">
-              Programs
-            </Link>
-          </li>
-
-          <li>
-            <Link smooth to="#facilities">
-              Facilities
-            </Link>
-          </li>
-
-          <li>
             <Link smooth to="#locations">
               Locations
             </Link>
@@ -70,7 +58,7 @@ const Navbar = () => {
 
         <div className={styled.nav__button}>
           <Button link="#classes" className="secondary">
-            View Classes
+            View Programs
           </Button>
         </div>
       </nav>
