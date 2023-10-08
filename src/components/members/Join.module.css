@@ -14,6 +14,7 @@
     padding: 2rem 0;
     max-width: 350px;
     margin: 0 auto;
+    color: black;
 }
 
 .join__image {
@@ -37,7 +38,7 @@
 .join form input {
     width: 100%;
     padding: .6rem 1rem;
-    border: 1px solid var(--secondary);
+    border: 1px solid var(--secondary-dark);
     border-radius: 100px;
     outline: none;
     font-size: 1rem;
@@ -47,6 +48,7 @@
     width: fit-content;
     margin: 0 auto;
 }
+
 
 
 /* Media Queries */

@@ -48,16 +48,8 @@ const Footer = () => {
               <h3>Email</h3>
               <li>
                 <p>Martha Hayden</p>
-                <p>gymnaturamaddison@gmail.com</p>
-              </li>
-            </div>
-
-            <div className={styled["footer__contact--info"]}>
-              <h3>Phone</h3>
-              <li>
-                <p>Maddison Garden</p>
-                <p>1-547-697-9236</p>
-              </li>
+                <p>martha235@aol.com</p>
+              </li>              
             </div>
           </ul>
         </article>
@@ -73,14 +65,15 @@ const Footer = () => {
       </Container>
 
       <ul className={styled.footer__logo}>
-        <Heading className="small" heading="natura" />
+        <Heading className="small" heading="creating ties" />
         <li>
+        Made with ❤️ by {" "}
           <a
             target="_blank"
-            href="https://github.com/m-oniqu3?tab=repositories"
+            href="https://github.com/SalomonFranco"
             rel="noreferrer"
           >
-            Designed & Developed by Salomon
+            Salomon Franco.
           </a>
         </li>
       </ul>

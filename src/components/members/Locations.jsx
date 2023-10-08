@@ -16,13 +16,14 @@ const Locations = () => {
       <Container>
         <article className={styled.locations__content}>
           <Heading className="medium--dark" heading="Vibrant cultures" />
-          <p className="text--dark">
-          rich history, and breathtaking landscapes converge.
+          <p className="text--darkblack">
+          Rich history, and breathtaking landscapes converge.
 
           </p>
         </article>
 
-        <div className={styled.locations__list}>{locations}</div>
+        <div className="text--darkblack">
+        <div className={styled.locations__list}>{locations}</div></div>
       </Container>
     </section>
   );
