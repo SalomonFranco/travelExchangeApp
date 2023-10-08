@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "./Facilities.module.css";
-import boxing from "../../assets/machupichu.mp4";
+import boxing from "../../assets/perumachupicchu.mp4";
 import Heading from "../helpers/heading/Heading";
 import Container from "../helpers/wrapper/Container";
 

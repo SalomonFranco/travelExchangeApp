@@ -7,7 +7,7 @@ import styled from "./AboutIntro.module.css";
 const AboutIntro = () => {
   const heading = (
     <>
-      DISCOVER <span>CUBA</span>
+      About <span>us</span>
     </>
   );
   return (
@@ -16,12 +16,10 @@ const AboutIntro = () => {
         <article className={styled.intro__content}>
           <Heading className="medium" heading={heading} />
           <p className="text">
-          Making Connections through Art and Music
-          8 Days tour
+          Creating Ties fosters cultural connections through transformative journeys. 
           </p>
           <p className="text">
-          Sustainable Community Building Extension
-          14 Days tour
+          Our immersive programs in Cuba and Peru blend exploration, art, and community, creating lasting bonds across continents.
           </p>
           <Button link="#membership" className="primary">
             Join Creating Ties

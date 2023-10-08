@@ -21,8 +21,8 @@ export const classes = [
       "https://images.pexels.com/photos/18427141/pexels-photo-18427141/free-photo-of-peruvian-peasants-working-on-a-field-with-misti-volcano-in-the-distance.jpeg?auto=compress&cs=tinysrgb&w=800",
     heading: "Program 3 (25 days)",
     desc: "Discover Peru tour, sustainable community development and homestay.",
-  },
-
+  }
+  ,
   {
     id: "4",
     image:
