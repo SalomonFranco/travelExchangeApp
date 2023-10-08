@@ -7,7 +7,7 @@ import Container from "../helpers/wrapper/Container";
 const Facilities = () => {
   const heading = (
     <>
-      Uncover <span>Peru's</span> richness.
+      Uncover <span>Peru's</span>richness.
     </>
   );
 
