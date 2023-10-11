@@ -3,11 +3,11 @@ import styled from "./Locations.module.css";
 import Heading from "../helpers/heading/Heading";
 import Container from "../helpers/wrapper/Container";
 import Item from "../helpers/item/Item";
-import { gymLocations } from "./gymLocations";
+import { programLocations } from "./gymLocations";
 
 const Locations = () => {
-  // map through the gymLocations array and render a Item component for each location
-  const locations = gymLocations.map((location) => {
+  // map through the programLocations array and render a Item component for each location
+  const locations = programLocations.map((location) => {
     return <Item key={location.id} item={location} className="location" />;
   });
 
@@ -15,14 +15,15 @@ const Locations = () => {
     <section className={styled.locations} id="locations">
       <Container>
         <article className={styled.locations__content}>
-          <Heading className="medium--dark" heading="be part of the elite" />
-          <p className="text--dark">
-            Whether you're just starting out on your fitness journey or you're a
-            seasoned pro, we have something for everyone.
+          <Heading className="medium--dark" heading="Vibrant cultures" />
+          <p className="text--darkblack">
+          Rich history, and breathtaking landscapes converge.
+
           </p>
         </article>
 
-        <div className={styled.locations__list}>{locations}</div>
+        <div className="text--darkblack">
+        <div className={styled.locations__list}>{locations}</div></div>
       </Container>
     </section>
   );

@@ -7,7 +7,7 @@ import styled from "./AboutIntro.module.css";
 const AboutIntro = () => {
   const heading = (
     <>
-      Fitness for <span>her</span>
+      About <span>us</span>
     </>
   );
   return (
@@ -16,19 +16,13 @@ const AboutIntro = () => {
         <article className={styled.intro__content}>
           <Heading className="medium" heading={heading} />
           <p className="text">
-            Natura was founded in 2014 by two women who were passionate about
-            health and fitness. They wanted to create a safe space for women to
-            workout, free from the judgment and harassment that they often
-            experienced in traditional gyms.
+          Creating Ties fosters cultural connections through transformative journeys. 
           </p>
-
           <p className="text">
-            The gym has helped countless women improve their health and
-            wellbeing, and it continues to be a place where women can come
-            together to support and motivate each other.
+          Our immersive programs in Cuba and Peru blend exploration, art, and community, creating lasting bonds across continents.
           </p>
           <Button link="#membership" className="primary">
-            Join Natura
+            Join Creating Ties
           </Button>
         </article>
       </Container>
