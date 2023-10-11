@@ -6,11 +6,14 @@ import Heading from "../helpers/heading/Heading";
 
 import {
   FaFacebookSquare,
-  FaTwitterSquare,
+  FaYoutubeSquare,
   FaInstagramSquare,
 } from "react-icons/fa";
 
 const Footer = () => {
+  const facebookLink = "https://www.facebook.com/Martha235";
+  const youtubeLink = "https://www.youtube.com/@Creatingties/about";
+  const instagramLink = "https://www.instagram.com/marthahayden/"
   return (
     <footer className={styled.footer__container}>
       <Container className={styled.footer}>
@@ -57,7 +60,15 @@ const Footer = () => {
         <div className={styled.footer__icons}>
           <Heading className="small--dark" heading="social media" />
           <div className={styled["footer__icons--icons"]}>
-            <FaFacebookSquare size={35} color="var(--secondary)" />
+          <a href={facebookLink} target="_blank" rel="noopener noreferrer">
+              <FaFacebookSquare size={35} color="var(--secondary)" />
+            </a>
+            <a href={youtubeLink} target="_blank" rel="noopener noreferrer">
+              <FaYoutubeSquare size={35} color="var(--secondary)" />
+            </a>
+            <a href={instagramLink} target="_blank" rel="noopener noreferrer">
+              <FaInstagramSquare size={35} color="var(--secondary)" />
+            </a>
           </div>
         </div>
       </Container>

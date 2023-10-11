@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "./Facilities.module.css";
-import boxing from "../../assets/hero6.png";
 import Heading from "../helpers/heading/Heading";
 import Container from "../helpers/wrapper/Container";
 

@@ -1,4 +1,4 @@
-export const gymLocations = [
+export const programLocations = [
   {
     id: "1",
     image:

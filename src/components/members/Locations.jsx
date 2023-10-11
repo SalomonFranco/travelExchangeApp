@@ -3,11 +3,11 @@ import styled from "./Locations.module.css";
 import Heading from "../helpers/heading/Heading";
 import Container from "../helpers/wrapper/Container";
 import Item from "../helpers/item/Item";
-import { gymLocations } from "./gymLocations";
+import { programLocations } from "./gymLocations";
 
 const Locations = () => {
-  // map through the gymLocations array and render a Item component for each location
-  const locations = gymLocations.map((location) => {
+  // map through the programLocations array and render a Item component for each location
+  const locations = programLocations.map((location) => {
     return <Item key={location.id} item={location} className="location" />;
   });
 

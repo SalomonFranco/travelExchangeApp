@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "./ProgramsIntro.module.css";
 import Container from "../helpers/wrapper/Container";
-import womanRunning from "../../assets/llama.png";
+import llamaAlone from "../../assets/llama.png";
 import Heading from "../helpers/heading/Heading";
 import Button from "../helpers/button/Button";
 
@@ -30,7 +30,7 @@ const ProgramsIntro = () => {
         </article>
 
         <figure className={styled["intro__content--image"]}>
-          <img src={womanRunning} alt="Woman running in gym attire" />
+          <img src={llamaAlone} alt="LatinAmerica" />
         </figure>
       </Container>
     </section>
