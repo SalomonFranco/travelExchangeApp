@@ -45,10 +45,9 @@ const Footer = () => {
         </ul>
 
         <article>
-          <Heading className="small--dark" heading="get in touch" />
+          <Heading className="small--dark" heading="for more information" />
           <ul className={styled.footer__contact}>
             <div className={styled["footer__contact--info"]}>
-              <h3>Email</h3>
               <li>
                 <p>Martha Hayden</p>
                 <p>martha235@aol.com</p>

@@ -8,7 +8,7 @@ import Button from "../helpers/button/Button";
 const Hero = () => {
   const heading = (
     <>
-      discover <span> the beauty </span> of  <span> Latin america</span>
+      Discover <span> the beauty </span> of  <span> Latin america</span>
     </>
   );
 
@@ -21,7 +21,7 @@ const Hero = () => {
           <article className={styled.hero__content}>
             <Heading className="large" heading={heading} />
             <p className="text">
-            "We believe in providing safe and welcoming spaces for students, empowering them to feel confident and comfortable while immersing themselves in diverse cultures. Through our Cuba and Peru programs, we aim to inspire young minds to lead healthy, active lifestyles while exploring the worlds of art, music, sustainability, and community building"
+            We believe in providing safe and welcoming spaces for students, empowering them to feel confident and comfortable while immersing themselves in diverse cultures. Through our Cuba and Peru programs, we aim to inspire young minds to lead healthy, active lifestyles while exploring the worlds of art, music, sustainability, and community building.
             </p>
 
             <Button className="primary" link="#membership">
