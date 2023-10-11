@@ -1,8 +1,8 @@
 # Creating Ties | Creating Ties fosters cultural connections through transformative journeys.
 
-[View Live Site](https://test.app)
+[View Live Site](https://creatingties.com)
 
-Natura is a women-only gym that provides a safe, supportive environment for women of all shapes, sizes, and fitness levels. Their goal is to help women feel confident and comfortable in their own skin, and to encourage them to lead healthy, active lifestyles.
+We believe in providing safe and welcoming spaces for students, empowering them to feel confident and comfortable while immersing themselves in diverse cultures. Through our Cuba and Peru programs, we aim to inspire young minds to lead healthy, active lifestyles while exploring the worlds of art, music, sustainability, and community building.
 
 ![Screenshot of home page](/src/assets/screenshot.jpeg)
 
