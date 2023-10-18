@@ -14,7 +14,7 @@ Our guides possess an intimate knowledge of the destinations, including Cuba and
 
 ## Tools and Technologies
 
-Natura was built using:
+Creating Ties was built using:
 
 - React
 - React Router Dom & React Router HashLink
